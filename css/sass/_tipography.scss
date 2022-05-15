@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@400;500&display=swap');
+
+h1, h2, p, a {
+    font-family: 'Saira', sans-serif;
+}
+
+
+h1 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 100%;
+
+    @media  screen and  (max-width: 930px) {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 150%;
+        
+    }
+}
+
+
+h2 {
+    font-size: 24px;
+    line-height: 150%;
+    font-weight: 400;
+}
+
+

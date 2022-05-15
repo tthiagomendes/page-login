@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1, h2, p, a {
+  font-family: 'Saira', sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 100%;
+}
+
+@media screen and (max-width: 930px) {
+  h1 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+  }
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+body {
+  background-color: #161C23;
+}
+
+.bg-hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 92%;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.container {
+  max-width: 1216px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+header h1 {
+  background: -webkit-gradient(linear, left top, right top, color-stop(4.08%, #0352C1), color-stop(31.51%, #2374E1));
+  background: linear-gradient(90deg, #0352C1 4.08%, #2374E1 31.51%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  padding: 36px;
+}
+
+.container-contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 79%;
+  border-radius: 4px;
+}
+
+.box {
+  width: 42%;
+  height: 480px;
+  background-color: #292D32;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 0px 80px rgba(79, 151, 248, 0.07), 0px 0px 10.0172px rgba(79, 151, 248, 0.035);
+          box-shadow: 0px 0px 80px rgba(79, 151, 248, 0.07), 0px 0px 10.0172px rgba(79, 151, 248, 0.035);
+}
+
+@media screen and (max-width: 830px) {
+  .box {
+    margin: 0px 32px 0 32px;
+    width: 364px;
+    height: 480px;
+  }
+  .box .area-login .email, .box .area-login .password {
+    padding: 10px;
+  }
+  .box .area-login .email .letter, .box .area-login .email .padlock, .box .area-login .password .letter, .box .area-login .password .padlock {
+    width: 28px;
+  }
+  .box .area-login .email .eye, .box .area-login .password .eye {
+    width: 18px;
+  }
+}
+
+.container-item {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 36px;
+}
+
+.container-item .title h2 {
+  text-align: center;
+  margin-bottom: 64px;
+  color: #EDF4FD;
+}
+
+.container-item button {
+  width: 100%;
+  height: 48px;
+  border: 0;
+  margin-top: 38px;
+  border-radius: 4px;
+  background: linear-gradient(269.38deg, #2374E1 1.11%, #0352C1 95.91%);
+  color: #EDF4FD;
+  cursor: pointer;
+}
+
+.area-login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.area-login .email, .area-login .password {
+  width: 100%;
+  height: 48px;
+  border: 0;
+  margin-bottom: 68px;
+  border-radius: 4px;
+  background-color: #EDF4FD;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 16px;
+}
+
+.area-login .email:nth-child(2), .area-login .password:nth-child(2) {
+  margin-bottom: 0;
+}
+
+.area-login .email .letter, .area-login .email .padlock, .area-login .password .letter, .area-login .password .padlock {
+  padding-right: 16px;
+}
+
+.area-login .email input, .area-login .password input {
+  width: 100%;
+  outline: none;
+  border: 0;
+  background-color: #EDF4FD;
+}
+
+.area-login .email .eye, .area-login .password .eye {
+  cursor: pointer;
+  padding: 0;
+}
+
+.area-login .link {
+  margin-top: 10px;
+  width: 100%;
+  text-align: end;
+}
+
+.area-login .link a {
+  text-decoration: none;
+  color: #0352C1;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
