@@ -1,9 +1,16 @@
-function displayPassword() {
+function displayPassword(icon) {
     
-    const elemento =  document.getElementById ('password');
-    if (elemento.getAttribute('type')=='password'){
-        elemento.setAttribute('type', 'text')
+    const element =  document.getElementById ('password');
+    if (element.getAttribute('type',) =='password'){
+        element.setAttribute('type', 'text');
+        document.querySelector('#eye').setAttribute('src', 'img/' + icon);
+
     }else {
-        elemento.setAttribute('type', 'password')
+        element.setAttribute('type', 'password')
+        document.querySelector('#eye').setAttribute('src', 'img/icon-closed-eye.svg')
     }
 }
+
+
+
+
